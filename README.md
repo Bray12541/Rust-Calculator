@@ -18,7 +18,7 @@ RustCalc is a Windows desktop companion for Rust that provides searchable raid c
 ## Installation
 
 1. Open the [latest release](../../releases/latest).
-2. Download `RustCalc-Setup-2.0.1.exe`.
+2. Download `RustCalc-Setup-2.0.2.exe`.
 3. Run the installer. It creates Start Menu and desktop shortcuts.
 4. Launch RustCalc from either shortcut.
 
@@ -32,12 +32,12 @@ RustCalc currently uses an unsigned installer. Windows SmartScreen may show a wa
 
 ## Version
 
-Current release: **2.0.1**
+Current release: **2.0.2**
 
 Installer SHA-256:
 
 ```text
-36756AC845993AF3EFF279A7AA8C94A8BD4EEE802D7FEA16A818EC95EF40097F
+0410B5D1C5754F97F4852E387B28B4EAB82FFAB46B6F9B9CF56DD4B26ACC5EBA
 ```
 
 ## Disclaimer
