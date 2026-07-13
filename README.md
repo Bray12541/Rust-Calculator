@@ -15,7 +15,7 @@ opening a browser for every calculation.
 
 Download the installer from the **[latest RustCalc release](https://github.com/Bray12541/Rust-Calculator/releases/latest)**.
 
-1. Download `RustCalc-Setup-2.1.2.exe` from the release's **Assets** section.
+1. Download `RustCalc-Setup-2.1.3.exe` from the release's **Assets** section.
 2. Run the installer.
 3. Launch RustCalc from the desktop shortcut or Start Menu.
 
@@ -58,6 +58,7 @@ Python is not required. RustCalc supports 64-bit Windows 10 and Windows 11.
 - Automatic game-data updates after major Rust patches
 - Fast compressed data packages instead of hundreds of individual page requests
 - Offline item icons bundled with the application
+- Lazy-loaded icons that continue appearing as long raid tables are scrolled
 - Settings for update preferences, UI scale, text size, and window position
 - Crash logs, diagnostics, update history, and raid-data regression checks
 
@@ -77,16 +78,16 @@ and preferences are retained during application updates.
 
 ## Verify the installer
 
-RustCalc v2.1.2 installer SHA-256:
+RustCalc v2.1.3 installer SHA-256:
 
 ```text
-44EB0B3D62FC07C1BB2D44472D219E59B464238AC33DEA851FD314EADFF244F3
+A9D77824498EA1397B9890DC8F5C2F35486A2BC6A93868E0AE7708E2C011FF0E
 ```
 
 In PowerShell, verify a downloaded installer with:
 
 ```powershell
-Get-FileHash .\RustCalc-Setup-2.1.2.exe -Algorithm SHA256
+Get-FileHash .\RustCalc-Setup-2.1.3.exe -Algorithm SHA256
 ```
 
 The resulting hash should exactly match the value above.
@@ -104,7 +105,7 @@ is automatically validated before replacing the working offline data.
 
 ## Current version
 
-**RustCalc 2.1.2**
+**RustCalc 2.1.3**
 
 See the [GitHub Releases page](https://github.com/Bray12541/Rust-Calculator/releases)
 for release notes and previous installers.
