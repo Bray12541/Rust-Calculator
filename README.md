@@ -15,7 +15,7 @@ opening a browser for every calculation.
 
 Download the installer from the **[latest RustCalc release](https://github.com/Bray12541/Rust-Calculator/releases/latest)**.
 
-1. Download `RustCalc-Setup-2.1.3.exe` from the release's **Assets** section.
+1. Download `RustCalc-Setup-2.2.0.exe` from the release's **Assets** section.
 2. Run the installer.
 3. Launch RustCalc from the desktop shortcut or Start Menu.
 
@@ -37,6 +37,15 @@ Python is not required. RustCalc supports 64-bit Windows 10 and Windows 11.
 - Partial-health calculations for damaged walls and doors
 - Remaining HP and overkill shown for each damage method
 - Persistent plans, favorites, recent items, and reusable presets
+
+### Stockpile and farming
+
+- Enter crafted explosives and raw materials already in your stockpile
+- Build mixed-method raid loadouts that reduce overkill and material waste
+- Compare Cheapest Sulfur, Fastest Raid, Eco Raid, No Workbench 3, and Best Stockpile Fit recommendations
+- See the exact amount still required after subtracting owned items
+- Estimate sulfur nodes, ore, furnace loads, charcoal, wood, smelting time, and crafting time
+- Configure Small, Large, or Electric Furnaces and the number running in parallel
 
 ### Crafting and recycling
 
@@ -78,16 +87,16 @@ and preferences are retained during application updates.
 
 ## Verify the installer
 
-RustCalc v2.1.3 installer SHA-256:
+RustCalc v2.2.0 installer SHA-256:
 
 ```text
-A9D77824498EA1397B9890DC8F5C2F35486A2BC6A93868E0AE7708E2C011FF0E
+3D23795ED0AA21B9C0A2B371A4F7D15E64062AB4E7EE8492C7AFD0E5EFA90784
 ```
 
 In PowerShell, verify a downloaded installer with:
 
 ```powershell
-Get-FileHash .\RustCalc-Setup-2.1.3.exe -Algorithm SHA256
+Get-FileHash .\RustCalc-Setup-2.2.0.exe -Algorithm SHA256
 ```
 
 The resulting hash should exactly match the value above.
@@ -105,7 +114,7 @@ is automatically validated before replacing the working offline data.
 
 ## Current version
 
-**RustCalc 2.1.3**
+**RustCalc 2.2.0**
 
 See the [GitHub Releases page](https://github.com/Bray12541/Rust-Calculator/releases)
 for release notes and previous installers.
