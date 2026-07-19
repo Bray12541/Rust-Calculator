@@ -15,7 +15,7 @@ opening a browser for every calculation.
 
 Download the installer from the **[latest RustCalc release](https://github.com/Bray12541/Rust-Calculator/releases/latest)**.
 
-1. Download `RustCalc-Setup-2.3.0.exe` from the release's **Assets** section.
+1. Download `RustCalc-Setup-2.3.1.exe` from the release's **Assets** section.
 2. Run the installer.
 3. Launch RustCalc from the desktop shortcut or Start Menu.
 
@@ -91,16 +91,16 @@ Saved raid plans and preferences are retained during application updates.
 
 ## Verify the installer
 
-RustCalc v2.3.0 installer SHA-256:
+RustCalc v2.3.1 installer SHA-256:
 
 ```text
-5A7B85733E97C1B4E03EAB102CB885DC43FA6F3491948D03573F04E66C6B868B
+1E256D7E999FA41116664E21561D723F673E4CAD48B7B7CA7C6453F434FD8C2A
 ```
 
 In PowerShell, verify a downloaded installer with:
 
 ```powershell
-Get-FileHash .\RustCalc-Setup-2.3.0.exe -Algorithm SHA256
+Get-FileHash .\RustCalc-Setup-2.3.1.exe -Algorithm SHA256
 ```
 
 The resulting hash should exactly match the value above.
@@ -118,7 +118,7 @@ is automatically validated before replacing the working offline data.
 
 ## Current version
 
-**RustCalc 2.3.0**
+**RustCalc 2.3.1**
 
 See the [GitHub Releases page](https://github.com/Bray12541/Rust-Calculator/releases)
 for release notes and previous installers.
