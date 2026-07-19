@@ -15,7 +15,7 @@ opening a browser for every calculation.
 
 Download the installer from the **[latest RustCalc release](https://github.com/Bray12541/Rust-Calculator/releases/latest)**.
 
-1. Download `RustCalc-Setup-2.2.0.exe` from the release's **Assets** section.
+1. Download `RustCalc-Setup-2.3.0.exe` from the release's **Assets** section.
 2. Run the installer.
 3. Launch RustCalc from the desktop shortcut or Start Menu.
 
@@ -64,9 +64,11 @@ Python is not required. RustCalc supports 64-bit Windows 10 and Windows 11.
 ### Updates and diagnostics
 
 - Automatic application updates using a dedicated updater executable
-- Automatic game-data updates after major Rust patches
+- Automatic official Rust changelist detection and independent game-data updates
 - Fast compressed data packages instead of hundreds of individual page requests
+- SHA-256 verification, previous-data rollback, retry cooldowns, and update history
 - Offline item icons bundled with the application
+- On-demand icon downloads for newly added Rust items
 - Lazy-loaded icons that continue appearing as long raid tables are scrolled
 - Settings for update preferences, UI scale, text size, and window position
 - Crash logs, diagnostics, update history, and raid-data regression checks
@@ -81,22 +83,24 @@ runs the dedicated updater, and relaunches the updated version. Users do not
 need to uninstall RustCalc or manually replace application files.
 
 Application and game-data update checks can be enabled or disabled from
-**Settings**. Game data is distributed as a small compressed release asset,
-verified with SHA-256, and regression-tested before activation. Saved raid plans
-and preferences are retained during application updates.
+**Settings**. Game data has its own small update channel, independent of app
+releases, and can also detect new item identities from the live catalogue after
+an official Rust patch. Packages are verified with SHA-256 and regression-tested
+before activation; the previous working data remains available for rollback.
+Saved raid plans and preferences are retained during application updates.
 
 ## Verify the installer
 
-RustCalc v2.2.0 installer SHA-256:
+RustCalc v2.3.0 installer SHA-256:
 
 ```text
-3D23795ED0AA21B9C0A2B371A4F7D15E64062AB4E7EE8492C7AFD0E5EFA90784
+5A7B85733E97C1B4E03EAB102CB885DC43FA6F3491948D03573F04E66C6B868B
 ```
 
 In PowerShell, verify a downloaded installer with:
 
 ```powershell
-Get-FileHash .\RustCalc-Setup-2.2.0.exe -Algorithm SHA256
+Get-FileHash .\RustCalc-Setup-2.3.0.exe -Algorithm SHA256
 ```
 
 The resulting hash should exactly match the value above.
@@ -114,7 +118,7 @@ is automatically validated before replacing the working offline data.
 
 ## Current version
 
-**RustCalc 2.2.0**
+**RustCalc 2.3.0**
 
 See the [GitHub Releases page](https://github.com/Bray12541/Rust-Calculator/releases)
 for release notes and previous installers.

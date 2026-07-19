@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "attacks": 482,
+    "craft": 644,
+    "items": 1243,
+    "raid": 553,
+    "recycle": 924
+  },
+  "revision": "live:77e5429ea53669e869408c8af95ce3f6daea6b58df483a7a4723856c00830a75",
+  "schema": 1,
+  "sha256": "992edd42c5f85dd49d61ada8e43179905b50b3c9e72c767ee0890566db07f75f",
+  "size": 2344481,
+  "source_updated": "2026-07-02",
+  "url": "https://raw.githubusercontent.com/Bray12541/Rust-Calculator/main/data/rust_game_data.json.gz"
+}
